@@ -1,4 +1,4 @@
-name: eShopOnWeb Build and Test
+<region>name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-name
   LOCATION: westus2
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: d241dbc6-b3e5-4929-812d-d9a10d0d0cea
+  SUBSCRIPTION-ID: 29f677a6-5393-475c-aaf3-cf20ca405df6
   WEBAPP-NAME:eshoponweb-name-webapp57625041
 
 jobs:
